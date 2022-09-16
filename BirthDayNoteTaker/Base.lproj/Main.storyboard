@@ -29,7 +29,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z52-vZ-kDr">
-                                <rect key="frame" x="234" y="252" width="100" height="31"/>
+                                <rect key="frame" x="218" y="252" width="125" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <buttonConfiguration key="configuration" style="filled" image="eraser.fill" catalog="system" title="Delete ">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
@@ -54,7 +54,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iIZ-a7-gen">
-                                <rect key="frame" x="47" y="252" width="97" height="31"/>
+                                <rect key="frame" x="47" y="252" width="121" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <buttonConfiguration key="configuration" style="filled" image="pencil" catalog="system" title="Save">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
