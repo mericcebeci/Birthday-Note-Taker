@@ -35,6 +35,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="deleteClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yiN-bF-ZQC"/>
                                     <action selector="saveClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Iuy-8Q-FhJ"/>
                                 </connections>
                             </button>

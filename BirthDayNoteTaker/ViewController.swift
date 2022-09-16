@@ -42,5 +42,22 @@ class ViewController: UIViewController {
         nameLabel.text = "Name: \(nameTextField.text!)"
         BirthDayLabel.text = "Birthday: \(BirthDayTextField.text!)"
     }
+    
+    @IBAction func deleteClicked(_ sender: Any) {
+        
+        
+        
+        let storedName = UserDefaults.standard.object(forKey: "name")
+        let storedBirthday = UserDefaults.standard.object(forKey: "birthday")
+        
+        if storedName is String {
+            UserDefaults.standard.removeObject(forKey: "name")
+            
+        }
+        
+        if storedName is String {
+            UserDefaults.standard.removeObject(forKey: "birthday" )
+        }
+    }
 }
 
