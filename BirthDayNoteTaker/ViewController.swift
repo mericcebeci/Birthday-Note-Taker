@@ -48,7 +48,7 @@ class ViewController: UIViewController {
         
         
         let storedName = UserDefaults.standard.object(forKey: "name")
-        let storedBirthday = UserDefaults.standard.object(forKey: "birthday")
+        _ = UserDefaults.standard.object(forKey: "birthday")
         
         if storedName is String {
             UserDefaults.standard.removeObject(forKey: "name")
